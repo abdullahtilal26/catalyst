@@ -1,4 +1,5 @@
-import { NextResponse, URLPattern } from 'next/server';
+import { NextResponse } from 'next/server';
+import 'urlpattern-polyfill';
 
 import { anonymousSignIn, auth, clearAnonymousSession, getAnonymousSession } from '~/auth';
 
